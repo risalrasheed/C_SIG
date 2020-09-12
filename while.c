@@ -6,12 +6,15 @@ Loops are of two types:
 Entry Controlled: while and for
 Exit Controlled:  do while
 */
+//a loop variable
+//condition checking
+//updation
 
 void main() {
-  int i=0;
+  int i=1;
 
 //While loop
-  i=6;
+  i=6;//i=5
   do
   { // loop variable -> i
     //i=0->1->2->3->4->5
@@ -19,22 +22,22 @@ void main() {
     i++; //updation
   }while(i<5);
 
-
+/*
 //For loop
-  for(int i=0;i<5;i++) {
-    //i=6
+  for( i=0;i<5; ) {
+    //i=5
 
     printf("In for loop i is %d\n",i);// 0 1 2 3 4 5
-
+    i++;
   }
-
-
-//Do while loop
-   i=0;
+/*
+*/
+// while loop
+   i=6;//i=5
   while(i<5) {
 
     printf(" while loop i is %d\n",i);//5
-    i++;
+    i++; // updation
     //i=6
   }
 

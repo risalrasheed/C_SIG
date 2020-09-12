@@ -10,22 +10,29 @@ void main() {
   printf("Select Option ");
   int opt;
   scanf("%d",&opt);
+
   switch(opt) {
-    case 1:
-      printf("Option 1\n");
-      printf("hello");
+
+    case 10:
+      printf("Option 10\n");
       break;
     case 2:
       printf("Option 2\n");
-      //break;
-    default:
-      printf("Unknown Option\n");
     case 3:
       printf("Option 3\n");
       break;
-    case 4:
+    case 5:
       printf("Option 4\n");
-      break; //fall through
+       //fall through
+    default:
+      printf("Unknown Option\n");
+      break;
+    case 1:
+      printf("Option 1\n");
+
+
+
+
 
     }
 
